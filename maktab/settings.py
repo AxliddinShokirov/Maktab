@@ -102,9 +102,8 @@ DATABASES = {
     }
 }
 STATICFILES_DIRS = [
-    BASE_DIR / "static",  # Ensure this points to the correct path
+    BASE_DIR / 'static',  # Ensure the path is correct for Windows
 ]
-
 
 
 # Password validation
